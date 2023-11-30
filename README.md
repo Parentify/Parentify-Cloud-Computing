@@ -1,4 +1,8 @@
 # Hello World
 
 ## API Link
-[https://farismnrr-gcloud.as.r.appspot.com/biji-bacang](https://farismnrr-gcloud.as.r.appspot.com/biji-bacang)
+[https://api-link/type-name](https://farismnrr-gcloud.as.r.appspot.com/biji-bacang)
+
+# Databook
+- **Type:** biji
+- **Name:** bacang
