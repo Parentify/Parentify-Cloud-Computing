@@ -1,5 +1,5 @@
 ## API Link
-https://api-link/type-name
+### https://api-link/type-name
 
 ## Databook
 - **Type:** biji
