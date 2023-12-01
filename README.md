@@ -1,5 +1,5 @@
 ## API Link
-https://parentify-ch2-ps318.as.r.appspot.com/type-name
+https://api-link/type-name
 
 ## Databook
 - **Type:** biji
