@@ -6,4 +6,4 @@
 - **Name:** bacang
 
 ## Example
-[https://farismnrr-gcloud.as.r.appspot.com/biji-bacang](https://farismnrr-gcloud.as.r.appspot.com/biji-bacang)
+[https://parentify-ch2-ps318.as.r.appspot.com/biji-bacang](https://parentify-ch2-ps318.as.r.appspot.com/biji-bacang)
