@@ -1,28 +1,10 @@
 const express = require('express');
 const app = express();
+const port = 3000;
+const router = require('./router');
 
-let bijiBacang = [
-    {
-        name: 'bacang',
-        type: 'biji',
-        information: ['hamil', 'menyusui', 'pascamelahirkan', 'bayi'],
-        status: [
-            'tidak direkomendasikan',
-            'tidak direkomendasikan',
-            'tidak direkomendasikan',
-            'dilarang',
-        ],
-        nutrition: ['sodium', 'kalium', 'vitamin A', 'Vitamin B12'],
-    },
-];
+app.use(router);
 
-app.get('/biji-bacang', (req, res) => {
-    res.send(bijiBacang);
-});
-
-const server = app.listen(process.env.PORT || 8080, () => {
-    const host = server.address().address;
-    const port = server.address().port;
-
-    console.log('Server listening at http://${host}:${port}');
+app.listen(port, () => {
+    console.log(`Server running at http://localhost:${port}`);
 });
