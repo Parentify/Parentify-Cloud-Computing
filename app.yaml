@@ -2,4 +2,3 @@
 runtime: nodejs
 threadsafe: true
 service: default
-env: flex
