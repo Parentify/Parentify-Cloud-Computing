@@ -8,6 +8,6 @@ app.get('/', (req, res) => {
     res.send('Successfully connected to the server');
 });
 
-const server = app.listen(process.env.PORT || 8080, () => {
-    console.log('Server listening at http://${process.env.PORT}');
+const server = app.listen(3000 || 8080, () => {
+    console.log('Server listening at http://${3000}');
 });
