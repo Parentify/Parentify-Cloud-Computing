@@ -1,0 +1,6 @@
+POST http://localhost:3001/food/addFood
+
+Content-Type: application/json
+{
+    "name": "any"
+}
