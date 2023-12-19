@@ -29,7 +29,7 @@ CREATE TABLE IF NOT EXISTS classification (
     texture VARCHAR(255)
 );
 
-CREATE TABLE articles (
+CREATE TABLE IF NOT EXISTS articles (
     articleId INT AUTO_INCREMENT PRIMARY KEY,
     articleName VARCHAR(255) NOT NULL,
     author VARCHAR(255) NOT NULL,
